@@ -2,7 +2,7 @@
 
 Bu proje, ultrason görüntülerinde fetüs konturlarının otomatik olarak tespit edilmesi için geliştirilmiş bir görüntü işleme uygulamasıdır. Canny kenar algılama algoritması ve çeşitli görüntü işleme teknikleri kullanılarak fetüs sınırlarının belirlenmesi amaçlanmaktadır.
 
-## 🎯 Proje Amacı
+## Proje Amacı
 
 Tıbbi görüntüleme alanında, ultrason görüntülerinden fetüsün konumunu ve sınırlarını tespit etmek önemli bir görevdir. Bu proje, aşağıdaki hedeflere ulaşmayı amaçlamaktadır:
 
@@ -11,7 +11,7 @@ Tıbbi görüntüleme alanında, ultrason görüntülerinden fetüsün konumunu 
 - **Hızlı Analiz**: Toplu görüntü işleme ile birden fazla ultrason görüntüsünün hızlı analizi
 - **Görselleştirme**: Tespit edilen kenarların ve sonuçların görsel olarak sunulması
 
-## 🔬 Kullanılan Yöntemler
+## Kullanılan Yöntemler
 
 ### 1. Görüntü Ön İşleme
 - **Gri Tonlamaya Dönüştürme**: RGB görüntülerin gri tonlamaya çevrilmesi
@@ -28,7 +28,7 @@ Tıbbi görüntüleme alanında, ultrason görüntülerinden fetüsün konumunu 
 - **Filtreleme**: İstenmeyen küçük kenarların temizlenmesi
 - **Overlay Görselleştirme**: Orijinal görüntü üzerine tespit edilen kenarların çizilmesi
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 edge-detection-project/
@@ -50,7 +50,7 @@ edge-detection-project/
 └── README.md
 ```
 
-## 🚀 Kurulum ve Kullanım
+##  Kurulum ve Kullanım
 
 ### Gereksinimler
 
@@ -78,7 +78,7 @@ jupyter notebook notebooks/KenarDeseniKodla2.ipynb
    - Parametreleri (threshold değerleri, blur miktarı vb.) ihtiyacınıza göre ayarlayın
    - Sonuçları `results/` klasöründe inceleyin
 
-## 📊 Örnek Sonuçlar
+## Örnek Sonuçlar
 
 Proje, ultrason görüntülerinde başarılı bir şekilde fetüs kenarlarını tespit edebilmektedir:
 
@@ -94,22 +94,14 @@ Notebook içerisinde ayarlanabilir parametreler:
 - **Gaussian Blur Kernel**: Bulanıklık miktarı (örn: 5x5)
 - **Morfolojik İşlem Boyutu**: Kernel boyutu (örn: 3x3, 5x5)
 
-## 📈 Gelecek Geliştirmeler
-
-- [ ] Derin öğrenme modeli entegrasyonu (U-Net, Mask R-CNN)
-- [ ] Otomatik threshold optimizasyonu
-- [ ] 3D ultrason görüntü desteği
-- [ ] Gerçek zamanlı video işleme
-- [ ] Fetüs ölçüm özellikleri (baş çevresi, femur uzunluğu vb.)
-
-## 📝 Veri Seti Hakkında
+##  Veri Seti Hakkında
 
 - **Test Görüntüleri**: 10 adet ultrason görüntüsü
 - **Etiketler**: Manuel olarak işaretlenmiş referans kenar görüntüleri
 - **Format**: PNG (24-bit RGB veya 8-bit grayscale)
 - **Çözünürlük**: Değişken (ultrason cihazına bağlı)
 
-## 🤝 Katkıda Bulunma
+## Katkıda Bulunma
 
 Katkılarınızı bekliyoruz! Lütfen pull request göndermeden önce:
 
@@ -119,11 +111,11 @@ Katkılarınızı bekliyoruz! Lütfen pull request göndermeden önce:
 4. Branch'inizi push edin (`git push origin feature/YeniOzellik`)
 5. Pull Request oluşturun
 
-## 📄 Lisans
+##  Lisans
 
 Bu proje eğitim ve araştırma amaçlı geliştirilmiştir.
 
-## 👤 İletişim
+## İletişim
 
 Sorularınız veya önerileriniz için issue açabilirsiniz.
 
